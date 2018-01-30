@@ -16,6 +16,6 @@ BST.insert(5);
 BST.insert(7);
 
 
-BST.self = BST;
-let str = CircularJSON.stringify(BST);
-console.log(str);
+// BST.self = BST;
+// let str = CircularJSON.stringify(BST);
+// console.log(str);

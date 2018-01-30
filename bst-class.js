@@ -36,6 +36,7 @@ class BinarySearchTree {
     }
   }
 
+
   find(key){
     if(this.key == key){
       return this.value;
