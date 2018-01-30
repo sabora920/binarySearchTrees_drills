@@ -17,21 +17,21 @@ class BinarySearchTree {
         
     else if(key < this.key){
       if(this.left == null) {
-        this.left = new BinarySearchTree(key, value, this);
+        this.left = new BinarySearchTree(key, value, this); 
       }
 
       else {
-        this.left.insert(key, value);
+        this.left.insert(key, value); 
       }
     }
 
     else {
       if(this.right == null) {
-        this.right = new BinarySearchTree(key, value, this);
+        this.right = new BinarySearchTree(key, value, this); 
       }
 
       else{
-        this.right.insert(key, value);
+        this.right.insert(key, value); 
       }
     }
   }
